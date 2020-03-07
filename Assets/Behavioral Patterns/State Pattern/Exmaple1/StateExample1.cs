@@ -279,7 +279,7 @@ namespace StateExample1
         public void Withdraw(double amount)
         {
             _state.Withdraw(amount);
-            Debug.Log("Deposited " + amount + "---");
+            Debug.Log("Withdraw " + amount + "---");
             Debug.Log(" Balance = " + this.Balance);
             Debug.Log(" Status = " + this.State.GetType().Name + "\n");
         }
